@@ -19,5 +19,22 @@ Live Version
 ---------------
 A live version can be viewed [here](http://sfml.figueiredoluiz.com/) .
 
+Edited Files
+---------------
+* controllers/SearchController.php
+* controllers/SiteController.php
+* models/FilmLocation.php
+* views/layouts/main.php
+* views/site/about.php
+* views/site/index.php
+* web/css/site.css
+* web/js/script.js
+* web/.htaccess
+
+
+
+
+
+
 
 
