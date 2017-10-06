@@ -1,0 +1,16 @@
+<IfModule mod_rewrite.c>
+	RewriteEngine on
+	Options +FollowSymLinks
+
+	#RewriteBase /php/sf-filmlocations/web/
+
+	# if a directory or a file exists, use it directly
+    RewriteCond %{REQUEST_FILENAME} -s [OR]
+    RewriteCond %{REQUEST_FILENAME} -l [OR]
+    RewriteCond %{REQUEST_FILENAME} -d
+
+    # otherwise forward it to index.php
+    RewriteRule ^.*$ - [NC,L]
+    RewriteRule ^.*$ index.php [NC,L]
+
+</IfModule>
