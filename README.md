@@ -1,4 +1,4 @@
-Food Trucks
+Film Locations in San Francisco
 ---------------
 
 This app display in a user-friendly way the Film Locations in San Francisco.
@@ -18,5 +18,6 @@ Technology Used
 Live Version
 ---------------
 A live version can be viewed [here](http://sfml.figueiredoluiz.com/) .
+
 
 
